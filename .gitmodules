@@ -1,0 +1,3 @@
+[submodule "stubs/micropython"]
+	path = stubs/micropython
+	url = https://github.com/74th/esp32-micropython-stub

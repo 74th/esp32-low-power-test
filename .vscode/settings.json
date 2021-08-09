@@ -1,0 +1,9 @@
+{
+  "python.linting.enabled": true,
+  "python.analysis.typeshedPaths": [".vscode/Pico-Stub"],
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.linting.mypyEnabled": false,
+  "python.analysis.extraPaths": ["stubs/micropython"],
+  "python.pythonPath": "/opt/homebrew/bin/python"
+}

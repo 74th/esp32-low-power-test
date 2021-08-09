@@ -5,7 +5,7 @@ from . import wifi
 from . import wifi_info
 
 
-def bright_led():
+def blink_led():
     led = Pin(25, Pin.OUT)
     for _ in range(3):
         led.on()
@@ -29,7 +29,7 @@ def main():
     print("done")
 
     print("working ...")
-    bright_led()
+    blink_led()
     print("work done")
 
     print("good night!")
